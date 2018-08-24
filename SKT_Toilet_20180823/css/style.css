@@ -1,0 +1,32 @@
+/* Reset */
+html,body {font-family:'맑은 고딕','Malgun Gothic', sans-serif; letter-spacing:-0.05em}
+body {font-size:18px; color:#444; line-height:20px;}
+* {margin:0; padding:0; border:0; box-sizing:border-box;}
+ul, ol {list-style:none;}
+table {width:100%; border:0; border-spacing:0; border-collapse:collapse;}
+caption, legend {overflow:hidden; visibility:hidden; position:absolute; z-index:-1; width:0; height:0; font-size:0; line-height:0;}
+img, input, select, textarea, button {border:0; vertical-align:middle;}
+a {text-decoration:none;}
+select, textarea {border:1px solid #ddd; resize:none;}
+select, label,button {background:transparent; appearance:none; -webkit-appearance:none; cursor:pointer;}
+hr {display:none;}
+select:focus,option:focus,input:focus,textarea:focus,button:focus,div:focus {outline:none;}
+em,i {font-style:normal;}
+
+.towerToilet {margin-top:45px; font-size:28px; text-align:center; line-height:34px;}
+.towerToilet span {color:#f57f26;}
+.title {height:32px; margin-left:18px; padding-left:40px; background:no-repeat 0 0 / 31px 32px; font-size:18px; line-height:25px;}
+.title.nowTime {margin-top:40px; background-image:url(../images/icn_time.png);}
+.title.toilet1 {margin-top:45px; background-image:url(../images/icn_toilet1.png);}
+.title.toilet2 {margin-top:60px; background-image:url(../images/icn_toilet2.png);}
+.floor {margin-top:20px;}
+.floor > li {overflow:hidden; margin-top:8px; padding:0 6px; background-color:#e9e9e9;}
+.floor > li:first-child {margin-top:0;}
+.floor > li > h3 {float:left; width:78px; padding-left:28px; font-size:40px; line-height:125px;}
+.floor > li > div {float:left; width:calc(100% - 78px);}
+.floor li ul {overflow:hidden; padding-left:48px;}
+.floor li .toiletM {background:url(../images/icn_man.png) no-repeat 0 0 / 48px 61px;}
+.floor li .toiletW {margin-top:3px; background:url(../images/icn_woman.png) no-repeat 0 0 / 48px 61px;}
+.floor li ul li {float:left; width:calc((100% - 9px) / 4); height:61px; margin-left:3px; background:#97c538 url(../images/img_empty.png) no-repeat 50% 50% / 33px 36px; text-indent:-9999px;}
+.floor li ul li:first-child {margin-left:0;}
+.floor li ul li.using {background:#d77471 url(../images/img_using.png) no-repeat 50% 50% / 39px 41px;}
